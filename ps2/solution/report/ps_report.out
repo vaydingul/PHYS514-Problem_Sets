@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Problem V}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Solution of Linear System vs. Minimization Problem}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Finding the Optimal Learning Rate in Gradient Descent Algorithm}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Gauss-Seidel Method}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Time Comparison of Different Methods and Matrix Types}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Problem VI}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Time Comparisons of Function Evaluations}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Function Evaluations}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Problem VII}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Hotelling's Deflation}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Time Comparisons}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Accuracies Compared to MATLAB Built-in}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.4}{Wigner's Semicircle Law}{section.3}% 13

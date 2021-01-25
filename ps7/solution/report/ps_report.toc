@@ -1,0 +1,48 @@
+\contentsline {section}{\numberline {1}Problem XXI}{2}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Construction of Symmetric Second Derivative Matrix for Neumann Boundary Condition}{2}{subsection.1.1}% 
+\contentsline {paragraph}{}{2}{section*.2}% 
+\contentsline {paragraph}{}{2}{section*.3}% 
+\contentsline {paragraph}{}{2}{section*.4}% 
+\contentsline {paragraph}{}{3}{section*.5}% 
+\contentsline {paragraph}{}{3}{section*.6}% 
+\contentsline {paragraph}{}{3}{section*.7}% 
+\contentsline {paragraph}{}{3}{section*.8}% 
+\contentsline {subsection}{\numberline {1.2}Construction of Second Derivative Matrix for Robin Boundary Condition}{3}{subsection.1.2}% 
+\contentsline {paragraph}{}{3}{section*.9}% 
+\contentsline {paragraph}{}{4}{section*.10}% 
+\contentsline {paragraph}{}{4}{section*.11}% 
+\contentsline {paragraph}{}{4}{section*.12}% 
+\contentsline {paragraph}{}{4}{section*.13}% 
+\contentsline {paragraph}{}{4}{section*.14}% 
+\contentsline {paragraph}{}{5}{section*.15}% 
+\contentsline {subsection}{\numberline {1.3}Wave Equation Solution}{5}{subsection.1.3}% 
+\contentsline {subsubsection}{\numberline {1.3.1}Dirichlet Boundary Condition - Smapling Point Experiment}{5}{subsubsection.1.3.1}% 
+\contentsline {paragraph}{}{5}{section*.16}% 
+\contentsline {paragraph}{}{5}{section*.17}% 
+\contentsline {paragraph}{}{5}{section*.18}% 
+\contentsline {paragraph}{}{12}{section*.19}% 
+\contentsline {subsubsection}{\numberline {1.3.2}Dirichlet Boundary Condition - Eigenvalue Solver Experiment}{12}{subsubsection.1.3.2}% 
+\contentsline {paragraph}{}{12}{section*.20}% 
+\contentsline {paragraph}{}{12}{section*.21}% 
+\contentsline {subsubsection}{\numberline {1.3.3}Dirichlet Boundary Condition - Eigenvalue Solver Speed Experiment}{17}{subsubsection.1.3.3}% 
+\contentsline {paragraph}{}{17}{section*.22}% 
+\contentsline {paragraph}{}{18}{section*.23}% 
+\contentsline {subsubsection}{\numberline {1.3.4}Neumann Boundary Condition - Symmetric Hermitian Matrix Case}{18}{subsubsection.1.3.4}% 
+\contentsline {paragraph}{}{18}{section*.24}% 
+\contentsline {paragraph}{}{21}{section*.25}% 
+\contentsline {subsubsection}{\numberline {1.3.5}Periodic Boundary Condition}{22}{subsubsection.1.3.5}% 
+\contentsline {section}{\numberline {2}Problem XXII}{23}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Nondimensionalization of the Half Harmonic Oscillator}{23}{subsection.2.1}% 
+\contentsline {paragraph}{}{23}{section*.26}% 
+\contentsline {paragraph}{}{24}{section*.27}% 
+\contentsline {paragraph}{}{24}{section*.28}% 
+\contentsline {paragraph}{}{24}{section*.29}% 
+\contentsline {paragraph}{}{24}{section*.30}% 
+\contentsline {paragraph}{}{24}{section*.31}% 
+\contentsline {paragraph}{}{25}{section*.32}% 
+\contentsline {subsection}{\numberline {2.2}Solution with Shooting Method}{25}{subsection.2.2}% 
+\contentsline {paragraph}{}{25}{section*.33}% 
+\contentsline {paragraph}{}{26}{section*.34}% 
+\contentsline {paragraph}{}{26}{section*.35}% 
+\contentsline {subsection}{\numberline {2.3}Solution with Direct Method}{26}{subsection.2.3}% 
+\contentsline {paragraph}{}{26}{section*.36}% 

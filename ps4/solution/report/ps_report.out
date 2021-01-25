@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Problem XI}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{General Looking of the Data}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Linear Fit on the Data}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Nonlinear Fit on the Data}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Error Estimation}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Problem XII}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Exact Polynomial Fit with Varying Number of Equidistant Nodes}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Linear and Cubic Spline Interpolation}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{Exact Polynomial Fit with Chebyshev Nodes}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.4}{Polynomial Fit when Number of Nodes is not Equal to Degree of Polynomial}{section.2}% 10

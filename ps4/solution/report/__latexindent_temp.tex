@@ -1,0 +1,138 @@
+% DO NOT MODIFY THIS SECTION unless you know what you're doing!z
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{tabularx} % extra features for tabular environment
+\usepackage{amsmath}  % improve math presentation
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{gensymb}
+\usepackage{appendix}
+\usepackage{gensymb}
+\usepackage{float}
+\usepackage{listings}
+\usepackage[export]{adjustbox}
+\usepackage{graphicx} % takes care of graphic including machinery
+\usepackage[margin=1in,letterpaper]{geometry} % decreases margins
+\usepackage{cite} % takes care of citations
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\newcommand*{\tran}{^{\mkern-1.5mu\mathsf{T}}}
+
+\hypersetup{
+    colorlinks=false,       % false: boxed links; true: colored links
+    linkcolor=blue,        % color of internal links
+    citecolor=blue,        % color of links to bibliography
+    filecolor=magenta,     % color of file links
+    urlcolor=blue         
+}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Start modifying the labwork number, your team number and the name and METU id
+% of your group members.
+\newcommand{\reporttitle}{Problem Set 1}
+\newcommand{\reportauthor}{ Volkan Aydıngül (Id: 0075359 )\\
+                            }
+                            % If any teammate does not help to write this report,
+                            % you may not write his/her name here.
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% DO NOT MODIFY THIS SECTION
+\begin{document}
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\begin{center} % Center remainder of the page
+%	LOGO SECTION
+\includegraphics[width = 8cm]{figures/koc_logo.png}
+
+%	HEADING SECTIONS
+\textsc{\Large PHYS 514 - Computational Physics}\\[1.5cm] 
+%	TITLE SECTION
+\HRule \\[0.6cm]
+{ \huge \bfseries \reporttitle}\\ % Title of your document
+\HRule \\[1.5cm]
+\end{center}
+\vspace{2cm}
+%	AUTHOR SECTION
+\begin{flushleft} \large
+\textit{Author:}\\
+\reportauthor% Your name
+\end{flushleft}
+\vspace{2cm}
+\makeatletter
+Date: \@date 
+\vfill % Fill the rest of the page with whitespace
+\makeatother
+\end{titlepage}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+\tableofcontents
+\newpage
+
+
+
+
+
+%\begin{figure}[H] 
+%   \centering \includegraphics[width=\columnwidth]{figures/figure.png}           
+%                \caption{Caption}                
+%                   \label{fig:label}
+%   \end{figure}
+
+\section{Problem V}
+\subsection{Solution of Linear System vs. Minimization Problem}
+\paragraph{} We are given the folowing function:
+\begin{equation}
+   \label{eqn:minProb}
+   f(\mathbf{x}) =\frac{1}{2} \mathbf{x} \tran A \mathbf{x} - \mathbf{b} \mathbf{x}
+\end{equation}
+Moreover, we are asked to investigate relation between the minimization of above equation and solving below linear system.
+\begin{equation}
+   \label{eqn:linSys}
+   A\mathbf{x} = \mathbf{b}
+\end{equation}
+First, let's consider the minimization problem. So as to find the $\mathbf{x}$ value that minimizes the $f(\mathbf{x})$, we need to look up its derivative.
+\begin{equation*}
+   \frac{\partial f}{\partial \mathbf{x}} = A\mathbf{x} - \mathbf{b}
+\end{equation*}
+Given that Eqn. \ref{eqn:symDer} is true when the $A$ is symmetric.
+\begin{equation}
+   \label{eqn:symDer}
+   \frac{\partial  \mathbf{x} \tran A \mathbf{x} }{\partial \mathbf{x}} = 2A\mathbf{x}
+\end{equation}
+\paragraph{}At this point, one need to consider the following relation to be able to infer minimum value of $\mathbf{x}$.
+\begin{equation}
+   \label{eqn:min0}
+   \frac{\partial f}{\partial \mathbf{x}} = \mathbf{0} = A\mathbf{x} - \mathbf{b}
+\end{equation}
+Finally, the solution of the Eqn. \ref{eqn:min0} is equivalent of the solution of the Eqn. \ref{eqn:linSys}. Therefore, we can conclude that minimization of the Eqn. \ref{eqn:minProb} is same as with the solution of Eqn. \ref{eqn:linSys} if the $A$ is symmetric and positive definite.
+
+\subsection{Finding the Optimal Learning Rate in Gradient Descent Algorithm}
+\paragraph{}For a given function $f(\mathbf{x})$ to be minimized, the gradient descent algorithm can be written in a following way:
+\begin{equation*}
+   \mathbf{x}_{n+1} = \mathbf{x}_n - \tau \nabla f(\mathbf{x}_n)
+\end{equation*}
+From Eqn. \ref{eqn:min0}, $\nabla f(\mathbf{x}_n)$ is known for our case:
+\begin{equation*}
+   \nabla f(\mathbf{x}_n) = A\mathbf{x}_n - \mathbf{b}
+\end{equation*}
+\paragraph{} However, there emerges a question that what is the optimal value of learning rate ($\tau$)? To provide an answer for this question, we need to investigate the rate of change of next estimation of the function ($f(\mathbf{x})$) with respect to learning rate ($\tau$), which is formulated below:
+\begin{equation*}
+   
+\frac{\partial f(\mathbf{x}_{n+1})}{\tau}
+
+\end{equation*}
+
+\end{document}
+
+              
+
+
